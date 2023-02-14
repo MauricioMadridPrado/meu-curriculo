@@ -1,0 +1,49 @@
+
+.carreira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100vw;
+
+}
+.carreira-texto {
+    font-family: 'krona one', sans-serif;
+    font-size: 1.25rem;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.carreira-texto-titulo{
+    font-size: 1.75rem;
+    color: var(--cor-terciaria);
+    text-align: center;
+
+}
+
+.carreira-texto-paragrafo{
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.carreira-lista-item-titulo{
+    font-size: 1.5rem;
+    color: var(--cor-substitulo);
+}
+
+.carreira-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.carreira-lista-item-paragrafo{
+    text-indent: 50px;
+}
