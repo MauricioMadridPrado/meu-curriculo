@@ -1,36 +1,40 @@
 
-.carreira {
+
+.carreira-intro {
+
+}
+
+.carreira-conteudo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    width: 100vw;
+
 
 }
 .carreira-texto {
     font-family: 'krona one', sans-serif;
     font-size: 1.25rem;
     line-height: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 30%;
 }
 
 .carreira-texto-titulo{
-    font-size: 1.75rem;
+    
+    font-size: 2.25rem;
     color: var(--cor-terciaria);
     text-align: center;
 
 }
 
 .carreira-texto-paragrafo{
-    font-size: 1.25rem;
+    font-size: 2rem;
     margin-bottom: 30px;
     text-align: center;
     margin-top: 16px;
+    
+}
+.carreira-texto-paragrafo a{
+    color: var(--cor-substitulo);
 }
 
 .carreira-lista-item-titulo{
@@ -41,9 +45,57 @@
 .carreira-lista {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 60px;
+}
+.carreira-lista-item {
+
+    text-align: center;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carreira-lista-item:hover {
+    transition: 600ms;
+    scale: 1.05;
+    border: 1px solid wheat;
+    box-shadow: 0px 0px 10px wheat;
+    padding: 10px;
 }
 
 .carreira-lista-item-paragrafo{
-    text-indent: 50px;
+
+}
+.carreira-lista-imagem{
+    max-width: 600px;
+    justify-self: center;
+}
+
+.carreira-videos{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 400px;
+}
+.video { 
+    width: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+.atravessaRua {
+    width: 600px;
+    height: 600px;
+}
+.videos-guitarra{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 600px;
+}
+
+video {
+    margin: 10px;
 }
