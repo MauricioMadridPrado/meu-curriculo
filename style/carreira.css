@@ -9,25 +9,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
 
 }
 .carreira-texto {
     font-family: 'krona one', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 26px;
+
 }
 
 .carreira-texto-titulo{
     
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     color: var(--cor-terciaria);
     text-align: center;
 
 }
 
 .carreira-texto-paragrafo{
-    font-size: 2rem;
+    font-size: 1.25rem;
     margin-bottom: 30px;
     text-align: center;
     margin-top: 16px;
@@ -38,7 +39,7 @@
 }
 
 .carreira-lista-item-titulo{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: var(--cor-substitulo);
 }
 
@@ -50,7 +51,8 @@
 .carreira-lista-item {
 
     text-align: center;
-    width: 700px;
+    max-width: 700px;
+
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -64,29 +66,18 @@
     padding: 10px;
 }
 
-.carreira-lista-item-paragrafo{
 
-}
 .carreira-lista-imagem{
     max-width: 600px;
     justify-self: center;
 }
 
-.carreira-videos{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    min-width: 400px;
-}
 .video { 
     width: auto;
     max-height: 300px;
     object-fit: cover;
 }
-.atravessaRua {
-    width: 600px;
-    height: 600px;
-}
+
 .videos-guitarra{
     display: flex;
    flex-wrap: wrap;

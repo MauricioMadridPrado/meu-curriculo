@@ -3,6 +3,8 @@ body {
     background: var(--cor-primaria);
     color: var(--cor-secundaria);
     height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,7 +15,7 @@ body {
 .principal{
     display: flex;
     flex-direction: column;
-    width: 1230px;
+    max-width: 1000px;
     gap: 300px;
 }
 
@@ -35,22 +37,22 @@ body {
 }
 .intro-texto-titulo{
 
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 56px;
     font-family: 'Krona One',sans-serif;
 }
 .intro-texto-paragrafo{
     font-family: 'montserrat',sans-serif;
-    font-size: 2rem;
-    line-height: 2.25;
+    font-size: 1.25rem;
+    line-height: 1.5;
 }
 .intro-texto-botoes{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
+
+
 .intro-texto-botoes-titulo{
     font-size: 1.5rem;
     font-weight: 400;
@@ -60,25 +62,23 @@ body {
 
 .btn-link{
     font-family: 'montserrat',sans-serif;
-    font-size: 1.5rem;
-    line-height: 36px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: var(--cor-secundaria);
     background: transparent;
     border: 2px solid #33eebb;
     text-decoration: none;
-    width: 378px;
-    height: 79px;
+    width: 200px;
+    height: 50px;
     border-radius: 16px;    
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 30px;
 }
 .btn-link:hover {
     transition: 500ms;
     box-shadow: 10px 10px 15px var(--cor-terciaria);
-   
     scale: 1.05;
     border: 2px solid var(--cor-quartenaria);
 }
