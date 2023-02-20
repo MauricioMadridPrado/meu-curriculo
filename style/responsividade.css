@@ -25,7 +25,9 @@
 .video {
     max-width: 500px;
 }
-
+.carreira-lista-item {
+    max-width: 500px;
+}
 .carreira-lista-imagem{
     max-width: 500px;
 }
@@ -56,6 +58,9 @@
         display: block;
         box-sizing: border-box;
         align-self: center;
+    }
+    .carreira-lista-item {
+        max-width: 360px;
     }
     .carreira-lista-item-paragrafo{
         display: block;
