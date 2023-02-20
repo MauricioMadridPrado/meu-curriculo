@@ -57,18 +57,10 @@
     gap: 20px;
 }
 
-.carreira-lista-item:hover {
-    transition: 600ms;
-    scale: 1.05;
-    border: 1px solid wheat;
-    box-shadow: 0px 0px 10px wheat;
-    padding: 10px;
-}
-
-
 .carreira-lista-imagem{
     max-width: 600px;
-    justify-self: center;
+    align-self: center;
+
 }
 
 .video { 
