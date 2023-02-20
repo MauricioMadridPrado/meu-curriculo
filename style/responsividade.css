@@ -18,7 +18,9 @@
     text-align: center;
 }
 .intro-texto-botoes-titulo{
+    display: block;
     margin: 30px 0 15px 0;
+    font-size: 1.25rem;
 }
 
 }
@@ -40,7 +42,7 @@
     }
     .intro-texto-titulo {
         
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     .intro-texto-paragrafo {
         font-size: 1rem;
