@@ -8,20 +8,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edege">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/carreira.css">
-    <link rel="stylesheet" href="style/cores.css">
-    <link rel="stylesheet" href="style/responsividade.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    <!-- CABECALHO -->
+    <header class="cabecalho">
+        <nav class="navegacao">
+            <ul class="navegacao-lista">
+                <li class="navegacao-lista-item">
+                    <a href="./index.html" class="navegacao-lista-link">
+                        Intro
+                    </a>
+                </li>
+                <li class="navegacao-lista-item">
+                    <a href="./mecanico.html" class="navegacao-lista-link">
+                        Mecanico
+                    </a>
+                </li>
+                <li class="navegacao-lista-item">
+                    <a href="./dev.html" class="navegacao-lista-link">
+                        dev
+                    </a>
+                </li>
+                <li class="navegacao-lista-item">
+                    <a href="./musico.html" class="navegacao-lista-link">
+                        Músico
+                    </a>
+                </li>
+                <li class="navegacao-lista-item">
+                    <a href="./podcaster.html" class="navegacao-lista-link">
+                        Podcaster
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main class="principal">
-
         <!-- INRTRODUCAO -->
         <section class="intro">
 
@@ -29,7 +53,7 @@
 
 
                 <h1 class="intro-texto-titulo">Um pouco sobre mim</strong> </h1>
-                
+
                 <p class="intro-texto-paragrafo"> Olá! Sou Maurício Prado, estudante de programação na Alura, músico,
                     projetista, gestor, mecânico e podcaster. Bastante coisa, né?
                     <br> Quer conhecer mais?
@@ -73,187 +97,15 @@
 
             <img class="intro-imagem" src="assets/Imagem.jpg" alt="Mulher no computador">
         </section>
-
-        
-        <!-- ENGENHEIRO -->
-        <section class="carreira">
-
-            <div class="carreira-intro">
-                <h2 class="carreira-texto-titulo">Engenheiro / Mecânico</h2>
-
-                <p class="carreira-texto-paragrafo">Trabalhei 10 anos dentro da indústria, começando nas funções de
-                    limpeza e indo até a gestão e projetos de engenharia mecânica.</p>
-            </div>
-            <div class="carreira-conteudo">
-
-                    <ul class="carreira-lista">
-
-                        <li class="carreira-lista-item">
-                            <span class="carreira-lista-item-titulo">Gestão - </span>
-                            <p class="carreira-lista-item-paragrafo"> Desensolvi um sistema utilizando Google sheets e
-                                Google forms para controle de toda produção, manutenções preventivas e corretivas,
-                                matéria-prima, desperdício e almoxarifado.
-                            </p>
-                        </li>
-                        <video controls muted autoplay loop class="video">
-                            <source src="./assets/videos/vid_projeto_gestor.mp4" type="video/mp4">
-                        </video>
-                        <li class="carreira-lista-item">
-                            <span class="carreira-lista-item-titulo">Projetista -</span>
-                            <p class="carreira-lista-item-paragrafo">Com conhecimentos em desenho técnico, engenharia
-                                (cursei Engenharia mecânica por um tempo) e mecânica de máquinas, ajudei no
-                                desenvolvimento de diversos componentes para máquinas, incluindo um retrofit completo de
-                                uma das máquinas da empresa. Também no padrão de desenhos para vários projetos de
-                                produtos
-                            </p>
-                        </li>
-                        <video controls muted autoplay loop class="video">
-                            <source src="./assets/videos/vid_eng_portao.mp4" type="video/mp4">
-                        </video>
-                        <li class="carreira-lista-item">
-                            <span class="carreira-lista-item-titulo">Mecânico - </span>
-                            <p class="carreira-lista-item-paragrafo">Desde a operação até o treinamento de operadores e
-                                manutensores da empresa, confeccionei diversos manuais e criei muitos padrões de
-                                manutenção e produção da empresa</p>
-
-                             
-                        </li>
-                        <img class="carreira-lista-imagem" src="./assets/img_em_maquina.jpg" alt="">
-
-
-                    </ul>
-        </section>
-
-        <!-- PROGRAMAÇÃO -->
-        <section class="carreira">
-
-            <h2 class="carreira-texto-titulo">Programação</h2>
-
-            <p class="carreira-texto-paragrafo">Comecei na Alura em 2022, após o trabalho sempre tentava estudar 2-4h
-                por dia, nem sempre era possível e, a medida que as demandas iam aumentando, eu diminuía o ritmo dos
-                estudos, porém, no início de 2023 decidi mudar a carreira e focar em programação. Na Alura, já estudei:
-            </p>
-
-            <div class="carreira-conteudo ">
-
-                    <ul class="carreira-lista">
-
-                        <li class="carreira-lista-item">
-                            <span class="carreira-lista-item-titulo">Lógica de programação - </span>
-                            <p class="carreira-lista-item-paragrafo"> Foi onde iniciei, e fora da Alura! Minha melhor
-                                nota na faculdade foi em Lógica de programação, lá conheci a área. Na Alura conclui
-                                diversos cursos de lógica com jogos como pong, frogger e tiro ao alvo
-                            </p>
-
-                        </li>
-                        <video controls muted autoplay loop class="video">
-                            <source src="./assets/videos/vid_atravessa_rua.mp4" type="video/mp4">
-                        </video>
-                        <li class="carreira-lista-item">
-                            <span class="carreira-lista-item-titulo">HTML e Css -</span>
-                            <p class="carreira-lista-item-paragrafo">Bem, essa página que você está no momento foi feita
-                                por mim! Algo simples, para tentar aplicar uma parte dos conhecimentos que obtive na
-                                Alura e em outras imersões que fiz nos últimos tempos!
-                            </p>
-
-                        </li>
-                        <video controls muted autoplay loop class="video">
-                            <source src="./assets/videos/vid_html_css.mp4" type="video/mp4">
-                        </video>
-                        <li class="carreira-lista-item">
-                            <span class="carreira-lista-item-titulo">Javascript (Fron-end e Back-end) - </span>
-                            <p class="carreira-lista-item-paragrafo">Finalizei uma formação de Js para Back-end e
-                                consegui aplicar um pouco do sistema que fiz para minha antiga empresa lá! Com cadastros
-                                de funcionários e almoxarifado. No front , é o que estou estudando no momento! Com o
-                                tempo, aprimorarei essa página com várias funções!</p>
-
-                        </li>
-                        <video controls muted autoplay loop class="video">
-                            <source src="./assets/videos/vid_almox_js.mp4" type="video/mp4">
-                        </video>
-                        <li class="carreira-lista-item">
-                            <span class="carreira-lista-item-titulo">Java -</span>
-                            <p class="carreira-lista-item-paragrafo">Utilizei Java para entender vários conceitos dentro
-                                da programação e aprimorar minha lógica. Consegui criar quase toda empresa que
-                                trabalhava dentro dele.
-                            </p>
-
-                        </li>
-                        <video controls muted autoplay loop class="video">
-                            <source src="./assets/videos/vid_java.mp4" type="video/mp4">
-                        </video>
-                        <li class="carreira-lista-item">
-                            <span class="carreira-lista-item-titulo">MySql -</span>
-                            <p class="carreira-lista-item-paragrafo">Aprendi a base para poder criar, manipular e
-                                pesquisar dentro de bancos de dados, conseguindo simular todo sistema de uma empresa
-                                dentro dele, com controle de funcionários, almoxarifado e matéria-prima.
-                            </p>
-
-                        </li>
-                        <video controls muted autoplay loop class="video">
-                            <source src="./assets/videos/vid_mysql.mp4" type="video/mp4">
-                        </video>
-
-                    </ul>
-        </section>
-
-        <!-- MUSICA -->
-        <section class="carreira">
-
-            <h2 class="carreira-texto-titulo">Música</h2>
-
-            <p class="carreira-texto-paragrafo">Comecei a tocar violão aos 11 anos com meu irmão, pegava "emprestado" os
-                instrumentos e fazia meu som… aos poucos fui evoluindo e conseguindo comprar os meus, mas, só realmente
-                estudei música aos 27 anos, em uma mentoria de guitarra com <a href="https://www.jaderescouto.com.br/">
-                    Jader Scouto </a>. <br> Nunca pretendi trabalhar com música, apesar de já ter tido algumas bandas e
-                tocado na noite. Música é minha paixão, o que realmente me acalma em dias ruins e ajuda a me expressar.
-
-            </p>
-
-
-
-            <div class="videos-guitarra">
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LYn0DPM8djc"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XpJ_7VzX-SM"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-
-
-            </div>
-
-
-        </section>
-       <!-- PODCAST -->
-       <section class="carreira">
-
-        <h2 class="carreira-texto-titulo">Podcaster</h2>
-        <div class="carreira-paragrafo">
-            <p class="carreira-texto-paragrafo">Em 2022, comecei um Podcast chamado <a href="https://www.youtube.com/@03am26/videos">03AM</a> com meu amigo <a href="https://www.instagram.com/__k4os/">__k4os</a>, a ideia é trazer assuntos da madrugada, coisas que pensamos nas noites de insônia, durante o banho, voltando do trabalho, mas trazer esses assuntos com informações sérias sobre eles, mas com muita viagem e irreverência 
-
-            </p>
-        </div>
-
-
-        <div class="videos-guitarra">
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/4mYy-osIOSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jgzr-nCyHI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-        </div>
-
-
-    </section>
     </main>
+    <!-- RODAPE -->
+    <footer class="rodape">
 
+        <div class="rodape-container">
+            <p class="rodape-container-texto">Desenvolvido por Maurício Madrid Prado</p>
+        </div>
 
+    </footer>
 </body>
 
 </html>

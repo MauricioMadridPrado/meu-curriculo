@@ -1,13 +1,39 @@
+@import url(./reset.css);
+@import url(./carreira.css);
+@import url(./header.css);
+@import url(./intro.css);
+@import url(./footer.css);
+@import url(./responsividade.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+
+:root{
+    --cor-escura: #011110;
+    --cor-letra-principal:#ccc;
+    --cor-marcacao: #66ff66;
+    --cor-titulos: #447744;
+    --cor-substitulo: #33dd33;
+    --cor-verde-sombra:#11cc00;
+    --fonte-principal: 'Ubuntu', sans-serif;
+    --tamanho-fonte-1: 2rem;
+    --tamanho-fonte-2: 1.5rem;
+    --tamanho-fonte-3: 1.25rem;
+    --tamanho-fonte-4: 1rem;
+
+}
 
 body {
-    background: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background: var(--cor-escura);
+    color: var(--cor-letra-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
     height: 100vh;
     width: 100vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 30px;
     align-items: center;
 
 }
@@ -16,80 +42,4 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 1000px;
-    gap: 300px;
-}
-
-
-.intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    
-}
-.intro-texto {
-    display: flex;
-    flex-direction: column;
-    gap: 90px;
-    padding-top: 5%;
-    width: 50%;
-
-}
-.intro-texto-titulo{
-
-    font-size: 2rem;
-    line-height: 56px;
-    font-family: 'Krona One',sans-serif;
-}
-.intro-texto-paragrafo{
-    font-family: 'montserrat',sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.5;
-}
-.intro-texto-botoes{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-
-.intro-texto-botoes-titulo{
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-family: 'krona one', sans-serif;
-}
-
-
-.btn-link{
-    font-family: 'montserrat',sans-serif;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--cor-secundaria);
-    background: transparent;
-    border: 2px solid #33eebb;
-    text-decoration: none;
-    width: 200px;
-    height: 50px;
-    border-radius: 16px;    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 30px;
-}
-.btn-link:hover {
-    transition: 500ms;
-    box-shadow: 10px 10px 15px var(--cor-terciaria);
-    scale: 1.05;
-    border: 2px solid var(--cor-quartenaria);
-}
-.intro-imagem {
-    width: 50%;   
-    max-width: 400px;
-}
-
-.navegacao-lista{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
 }

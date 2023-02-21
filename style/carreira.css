@@ -15,33 +15,31 @@
 
 }
 .carreira-texto {
-    font-family: 'krona one', sans-serif;
-    font-size: 1rem;
+    font-size: var(--tamanho-fonte-4);
     line-height: 26px;
 
 }
 
 .carreira-texto-titulo{
-    
-    font-size: 1.5rem;
-    color: var(--cor-terciaria);
+    font-size: var(--tamanho-fonte-2);
+    color: var(--cor-marcacao);
     text-align: center;
 
 }
 
 .carreira-texto-paragrafo{
-    font-size: 1.25rem;
+    font-size: var(--tamanho-fonte-3);
     margin-bottom: 30px;
     text-align: center;
     margin-top: 16px;
     
 }
 .carreira-texto-paragrafo a{
-    color: var(--cor-substitulo);
+    color: var(--cor-marcacao);
 }
 
 .carreira-lista-item-titulo{
-    font-size: 1.25rem;
+    font-size: var(--tamanho-fonte-3);
     color: var(--cor-substitulo);
 }
 
