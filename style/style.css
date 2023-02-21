@@ -86,16 +86,10 @@ body {
     width: 50%;   
     max-width: 400px;
 }
-.rodape {
-    background: var(--cor-terciaria);
-    margin-top: 30px;
 
-    
-}
-.rodape-texto {
-    color:  var(--cor-quartenaria);
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 36px;
+.navegacao-lista{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
 }
