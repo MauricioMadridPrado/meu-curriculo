@@ -128,3 +128,21 @@
 
 
 }
+
+/* LISTA MERCADO */
+
+@media (max-width:900px) {
+    .lista-mercado {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lista-itens {
+        box-sizing: border-box;
+        max-width: 100%;
+        
+    }
+
+    
+}
