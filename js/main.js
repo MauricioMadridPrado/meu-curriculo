@@ -2,7 +2,7 @@ const form = document.getElementById("formulario");
 const lista = document.getElementById("lista-itens");
 const items = JSON.parse(localStorage.getItem("items")) || [];
 const nome = document.getElementById("nomeItem");
-nome.focus();
+
 
 items.forEach((elemento) => {
     criaItem(elemento);
@@ -29,13 +29,13 @@ form.addEventListener("submit", (evento) => {
         alteraQuantidade(item)
 
         items[items.findIndex(elemento => elemento.id === existe.id)] = item;
-        nome.focus();
+        
     } else {
         item.id = items[items.length -1] ? (items[items.length-1]).id +1 : 0;
 
         criaItem(item);
         items.push(item);
-        nome.focus();
+        
 
     }
     localStorage.setItem("items", JSON.stringify(items))

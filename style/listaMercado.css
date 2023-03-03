@@ -32,6 +32,9 @@
     align-self: center;
     
 }
+.formulario-radio input {
+    padding: 4px;
+}
 .entradas{
     padding: 10px 10px ;
     min-width: 100px;
