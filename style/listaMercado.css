@@ -29,6 +29,8 @@
 
 .quantidadeItem{
     font-size: var(--tamanho-fonte-3);
+    align-self: center;
+    
 }
 .entradas{
     padding: 10px 10px ;

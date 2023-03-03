@@ -54,23 +54,24 @@
 
                 <label class="nomeItem" for="nomeItem">Mercadoria</label>
                 <input class="entradas" type="text" name="nomeItem" id="nomeItem" required>
+                <label class="quantidadeItem" for="quantidadeItem">Quantidade</label>
                 <div class="quantidadeTipo">
-                    <div>
-                        <label class="quantidadeItem" for="quantidadeItem">Quantidade</label>
-                        <input class="entradas" type="number" name="quantidadeItem" id="quantidadeItem" required>
-                    </div>
 
-                    <div>
-                        <select class="entradas" name="item-tipo" id="item-tipo" required aria-placeholder="tipo">
 
-                            <option id="item-tipo" name="item-tipo" id="item-tipo">Unidades</option>
-                            <option id="item-tipo" name="item-tipo" id="item-tipo">Kg</option>
-                            <option id="item-tipo" name="item-tipo" id="item-tipo">Gramas</option>
-                            <option id="item-tipo" name="item-tipo" id="item-tipo">Litros</option>
-                            
+                    <input class="entradas" type="number" name="quantidadeItem" id="quantidadeItem" required>
 
-                        </select>
-                    </div>
+
+
+                    <select class="entradas" name="item-tipo" id="item-tipo" required aria-placeholder="tipo">
+
+                        <option id="item-tipo" name="item-tipo" id="item-tipo">Unidades</option>
+                        <option id="item-tipo" name="item-tipo" id="item-tipo">Kg</option>
+                        <option id="item-tipo" name="item-tipo" id="item-tipo">Gramas</option>
+                        <option id="item-tipo" name="item-tipo" id="item-tipo">Litros</option>
+
+
+                    </select>
+
                 </div>
 
                 <input type="submit" value="Adicionar" class="botaoFormulario" id="enviarItem">
@@ -93,12 +94,12 @@
         </div>
 
     </main>
-            <!-- RODAPE -->
-            <footer class="rodape">
+    <!-- RODAPE -->
+    <footer class="rodape">
 
-                <div class="rodape-container">
-                    <p class="rodape-container-texto">Desenvolvido por Maurício Madrid Prado</p>
-                </div>
+        <div class="rodape-container">
+            <p class="rodape-container-texto">Desenvolvido por Maurício Madrid Prado</p>
+        </div>
     </footer>
     <script src="./js/main.js"></script>
 </body>
