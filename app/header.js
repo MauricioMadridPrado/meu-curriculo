@@ -11,7 +11,7 @@ const itensNavegacao = [
     },
     {
         nome: 'Dev',
-        nav: './Dev.html'
+        nav: './dev.html'
     },
     {
         nome: 'Músico',
