@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
 }
-
 .rodape-container-texto{
     font-size: var(--tamanho-fonte-4);
     text-decoration: underline;

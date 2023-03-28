@@ -2,24 +2,24 @@ const navegacao = document.getElementById('navegacao-lista')
 
 const itensNavegacao = [
     {
-        nome: 'intro',
-        nav: './index.html'
+        nome: 'Contato',
+        nav: 'contato.html'
     },
     {
         nome: 'Mecânico',
-        nav: './mecanico.html'
+        nav: '/pages/mecanico.html'
     },
     {
         nome: 'Dev',
-        nav: './dev.html'
+        nav: '/pages/dev.html'
     },
     {
         nome: 'Músico',
-        nav: './musico.html'
+        nav: '/pages/musico.html'
     },
     {
         nome: 'Podcaster',
-        nav: './podcaster.html'
+        nav: '/pages/podcaster.html'
     }
 ]
 
