@@ -22,7 +22,7 @@ const itensNavegacao = [
     }
 ]
 
-function criaNavegação() {
+export default function criaNavegação() {
     itensNavegacao.forEach(item => {
         navegacao.innerHTML +=
             `
@@ -34,4 +34,3 @@ function criaNavegação() {
         `
     })
 }
-criaNavegação()

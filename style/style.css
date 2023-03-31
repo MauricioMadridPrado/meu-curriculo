@@ -5,7 +5,7 @@
 @import url(./footer.css);
 @import url(./responsividade.css);
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
-@import url(./formulario.css);
+
 :root {
   --cor-escura: #011110;
   --cor-preto: #000;
