@@ -32,10 +32,12 @@
     font-size: var(--tamanho-fonte-2);
     font-weight: 400;
     padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em var(--cor-verde-sombra2);
 }
 .intro-texto-botoes-titulo:hover{ 
    box-shadow: 0 0 0.5em var(--cor-marcacao);
-    border-radius: 1em;
+
 }
 .btn-link{
     font-size: var(--tamanho-fonte-3);
@@ -51,6 +53,7 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
+    
 }
 .btn-link:hover {
     transition: 500ms;
