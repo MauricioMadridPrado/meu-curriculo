@@ -1,6 +1,9 @@
 const navegacao = document.getElementById('navegacao-lista')
-
 const itensNavegacao = [
+    {
+        nome: 'Dev',
+        nav: '/pages/dev.html'
+    },
     {
         nome: 'Contato',
         nav: 'contato.html'
@@ -8,10 +11,6 @@ const itensNavegacao = [
     {
         nome: 'Mecânico',
         nav: '/pages/mecanico.html'
-    },
-    {
-        nome: 'Dev',
-        nav: '/pages/dev.html'
     },
     {
         nome: 'Músico',
@@ -36,4 +35,3 @@ function criaNavegação() {
     })
 }
 criaNavegação()
-

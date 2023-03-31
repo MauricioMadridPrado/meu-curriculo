@@ -4,41 +4,42 @@
 @import url(./intro.css);
 @import url(./footer.css);
 @import url(./responsividade.css);
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
-:root{
-    --cor-escura: #011110;
-    --cor-preto: #000;
-    --cor-branco: #fff;
-    --cor-letra-principal:#ccc;
-    --cor-marcacao: #66ff66;
-    --cor-titulos: #447744;
-    --cor-substitulo: #33dd33;
-    --cor-verde-sombra:#11cc00;
-    --cor-fundo-formulario:#f5deb3;
-    --cor-item-lista:#e7dcd5;
-    --cor-botao-deletar:#ff4444;
-    --cor-botao-enviar: #660000;
-    --fonte-principal: 'Ubuntu', sans-serif;
-    --tamanho-fonte-1: 2rem;
-    --tamanho-fonte-2: 1.5rem;
-    --tamanho-fonte-3: 1.25rem;
-    --tamanho-fonte-4: 1rem;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import url(./formulario.css);
+:root {
+  --cor-escura: #011110;
+  --cor-preto: #000;
+  --cor-branco: #fff;
+  --cor-letra-principal: #ccc;
+  --cor-marcacao: #66ff66;
+  --cor-titulos: #447744;
+  --cor-substitulo: #33dd33;
+  --cor-verde-sombra: #11cc00;
+  --cor-verde-sombra2: #2e3a17;
+  --cor-item-lista: #e7dcd5;
+  --cor-botao-deletar: #ff4444;
+  --cor-botao-enviar: #660000;
+  --fonte-principal: "Ubuntu", sans-serif;
+  --tamanho-fonte-1: 2rem;
+  --tamanho-fonte-2: 1.5rem;
+  --tamanho-fonte-3: 1.25rem;
+  --tamanho-fonte-4: 1rem;
 }
 body {
-    background: var(--cor-escura);
-    color: var(--cor-letra-principal);
-    font-family: var(--fonte-principal);
-    font-weight: 400;
-    height: 100vh;
-    width: 100vw;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
+  background: var(--cor-escura);
+  color: var(--cor-letra-principal);
+  font-family: var(--fonte-principal);
+  font-weight: 400;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
 }
-.principal{
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
+.principal {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
 }
